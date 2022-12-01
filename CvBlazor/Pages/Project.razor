@@ -1,0 +1,35 @@
+﻿@page "/projecten/{code}"
+
+@inject IProjectService ProjectService
+
+<PageTitle>Ruben Vermeulen - Projecten</PageTitle>
+
+@if (project.Code == string.Empty)
+{
+    <EmptyPage/>
+}
+else{
+    <Header></Header>
+    <main>
+        <h2>@project.Title</h2>
+        <section>
+            <div>
+                <img src="@project.ImageSrc" alt="@project.Title" />
+                <p>@project.Description</p>
+            </div>
+        </section>
+    </main>
+}
+
+
+@code {
+    private ProjectDetailViewModel project = new ProjectDetailViewModel();
+
+    [Parameter]
+    public string Code { get; set; } = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        project = await ProjectService.GetByCode(Code);
+    }
+}

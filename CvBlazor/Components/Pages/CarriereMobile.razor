@@ -1,0 +1,24 @@
+﻿@inject ITimelineNodeService TimelineNodeService
+
+<div class="timeline">
+    @for (int i = 0; i < timelineNodes.Count; i++)
+    {
+        <div class="container">
+            <div class="content">
+                <h2>@timelineNodes[i].Title (@TimelineNodeService.GetDateInfo(timelineNodes[i]))</h2>
+                <h3>@timelineNodes[i].SubTitle</h3>
+                <img src="@timelineNodes[i].ImageSrc" />
+                <p>@timelineNodes[i].Description</p>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    private IList<TimelineNodeViewModel> timelineNodes = new List<TimelineNodeViewModel>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        timelineNodes = await TimelineNodeService.Get();
+    }
+}

@@ -1,0 +1,22 @@
+﻿@inject IContactInfoService ContactInfoService
+
+<article>
+    <h1>@Contact.Title</h1>
+    @if (Contact.Email != null)
+    {
+        <a href="@ContactInfoService.GetMailHref(Contact)"><span class="fa-solid fa-envelope"></span>@Contact.Email</a>
+    }
+    @if (Contact.LinkedIn != null)
+    {
+        <a href="@ContactInfoService.GetLinkedInHref(Contact)" target="_blank"><span class="fa-brands fa-linkedin"></span>in/@Contact.LinkedIn</a>
+    }
+    @if (Contact.Tel != null)
+    {
+        <a href="@ContactInfoService.GetTelHref(Contact)"><span class="fa-solid fa-phone"></span>@Contact.Tel</a>
+    }
+</article>
+
+@code {
+    [Parameter]
+    public ContactInfoViewModel Contact { get; set; } = new ContactInfoViewModel();
+}

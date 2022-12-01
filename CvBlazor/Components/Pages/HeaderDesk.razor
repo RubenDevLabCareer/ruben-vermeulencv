@@ -1,0 +1,25 @@
+﻿@inject IMainProfileService MainProfileService
+
+<header>
+    <div class="logo">
+        <img src="images/icons/devLabIcon.png" alt="DevLab.Career Logo">
+        <h1>@headerProfile.Name</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="projecten">Projecten</a></li>
+            <li><a href="carriere">Carriere</a></li>
+            <li><a href="contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+@code{
+    private HeaderProfileViewModel headerProfile = new HeaderProfileViewModel();
+
+    protected override async Task OnInitializedAsync()
+    {
+        headerProfile = await MainProfileService.GetHeader();
+    }
+}
