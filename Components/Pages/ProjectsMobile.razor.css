@@ -1,0 +1,44 @@
+﻿ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.project, .project a {
+    height: 30vh;
+}
+
+.project {
+    width: 100%;
+    background-size: cover !important;
+    margin: 2rem;
+    list-style: none;
+    border-radius: 20px;
+    border: 3px solid white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: end;
+}
+
+.project:hover{
+    border-color: lightgray;
+}
+
+    .project a {
+        width: 100%;
+        display: flex;
+        align-items:end;
+        text-decoration: none;
+        color: white;
+    }
+
+    .project a:hover{
+        color: lightgray;
+    }
+
+    .project a span{
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+    }

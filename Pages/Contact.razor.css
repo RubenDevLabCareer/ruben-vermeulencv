@@ -1,0 +1,18 @@
+﻿.contactInfoBox {
+    display: flex;
+    align-items: center;
+}
+
+.contactInfo {
+    color: var(--secundaryColor);
+    background: white;
+    border-radius: 20px;
+    color: var(--dev-lab-secundary);
+    display: block;
+    height: fit-content;
+    padding: 1em;
+}
+
+    .contactInfo > ::deep article:not(:last-child){
+        margin-bottom: 1rem;
+    }

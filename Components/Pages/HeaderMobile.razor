@@ -1,0 +1,41 @@
+﻿@inject IMainProfileService MainProfileService
+
+<header>
+    <div class="headerMobile">
+        <img src="images/icons/devLabIcon.png" alt="DevLab.Career Logo">
+        <h1>@headerProfile.Name</h1>
+        <div @onclick="ToggleMenu" class="menuMobile">
+            <div class="@openMenuClass"><span class="fa-solid fa-xmark"></span></div>
+            <div class="@closedMenuClass"><span class="fa-solid fa-bars"></span></div>
+        </div>
+    </div>
+    <nav class="@navClass">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="projecten">Projecten</a></li>
+            <li><a href="carriere">Carriere</a></li>
+            <li><a href="contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+@code {
+    private string closedMenuClass = "active";
+    private string openMenuClass = string.Empty;
+    private string navClass = string.Empty;
+    private bool menuActive = false;
+    private HeaderProfileViewModel headerProfile = new HeaderProfileViewModel();
+
+    protected override async Task OnInitializedAsync()
+    {
+        headerProfile = await MainProfileService.GetHeader();
+    }
+
+    private void ToggleMenu() 
+    {
+        menuActive = !menuActive;
+        navClass = menuActive ? "active" : string.Empty;
+        openMenuClass = menuActive ? "active" : string.Empty;
+        closedMenuClass = menuActive ? string.Empty : "active";
+    }
+}

@@ -1,0 +1,8 @@
+﻿<MediaQuery Media="@Breakpoints.MediumDown" @bind-Matches="IsMobile">
+    <Matched><HeaderMobile></HeaderMobile></Matched>
+    <Unmatched><HeaderDesk></HeaderDesk></Unmatched>
+</MediaQuery>
+
+@code {
+    private bool IsMobile = false;
+}

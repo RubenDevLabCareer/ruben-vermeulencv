@@ -1,0 +1,33 @@
+﻿@inject IMainProfileService MainProfileService
+
+<section id="content">
+    <aside>
+        <article>
+            <div id="portrait">
+                <div id="portraitBorder">
+                    <img src="@profile.ImageSrc" alt="DevLab.Career Logo" />
+                </div>
+            </div>
+            <p id="profile">@profile.InnerHtml</p>
+        </article>
+    </aside>
+    <section class="services">
+        @foreach (var skillChip in profile.Skills)
+        {
+            <article>
+                <h3><span class="@skillChip.FontAwesomeClasses"></span>@skillChip.Title</h3>
+                <p>@skillChip.Description</p>
+                <p>@skillChip.Technologies</p>
+            </article>
+        }
+    </section>
+</section>
+
+@code {
+    private HomeProfileViewModel profile = new HomeProfileViewModel();
+
+    protected override async Task OnInitializedAsync()
+    {
+        profile = await MainProfileService.GetHome();
+    }
+}

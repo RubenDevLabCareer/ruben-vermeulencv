@@ -1,0 +1,19 @@
+﻿@inject IProjectService ProjectService
+
+<ul>
+    @foreach (var project in projects)
+    {
+        <li class="project" style="background: linear-gradient(to top, rgba(0, 0, 0, 0.90) 0%, rgba(0, 0, 0, 0) 50%), url(@project.ImageSrc)">
+            <a href="projecten/@project.Code"><span>@project.Title</span></a>
+        </li>
+    }
+</ul>
+
+ @code {
+    private IList<ProjectBaseViewModel> projects = new List<ProjectBaseViewModel>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        projects = await ProjectService.Get();
+    }
+}
