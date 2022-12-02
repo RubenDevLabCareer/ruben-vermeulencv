@@ -1,0 +1,776 @@
+/* /App.razor.rz.scp.css */
+#app[b-1z7s2mz07m] {
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 100vh;
+}
+/* /Components/ContactView.razor.rz.scp.css */
+h1[b-y3ctcxyqho] {
+    font-size: 1.5rem;
+}
+
+a[b-y3ctcxyqho] {
+    display: block;
+    color: var(--secundaryColor);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+    a:hover[b-y3ctcxyqho] {
+        color: var(--primaryColor);
+    }
+
+    a svg[b-y3ctcxyqho] {
+        min-width: 32px;
+        text-align: center;
+        padding-right: 1rem;
+    }
+/* /Components/Pages/CarriereDesk.razor.rz.scp.css */
+.timeline[b-l6283xds4p] {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+    .timeline[b-l6283xds4p]::after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        background-color: white;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        margin-left: -3px;
+    }
+
+.container[b-l6283xds4p] {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    margin-left: 0;
+}
+
+    .container[b-l6283xds4p]::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        border: medium solid white;
+    }
+
+    .container[b-l6283xds4p]::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: -12.5px;
+        background-color: var(--secundaryColor);
+        border: 4px solid white;
+        top: 15px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+.left[b-l6283xds4p] {
+    left: 0;
+}
+
+.right[b-l6283xds4p] {
+    left: 50%;
+}
+
+.left[b-l6283xds4p]::before {
+    right: 30px;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+
+.right[b-l6283xds4p]::before {
+    left: 30px;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+.right[b-l6283xds4p]::after {
+    left: -12.5px;
+}
+
+.content[b-l6283xds4p] {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+    color: var(--secundaryColor);
+}
+
+    .content h2[b-l6283xds4p] {
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    .content h3[b-l6283xds4p] {
+        font-size: 0.8rem;
+        color: darkgrey;
+    }
+
+    .content img[b-l6283xds4p] {
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+
+    .content p[b-l6283xds4p] {
+        text-align: justify;
+        margin: 0;
+    }
+/* /Components/Pages/CarriereMobile.razor.rz.scp.css */
+.timeline[b-o16ijsf545] {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+    .timeline[b-o16ijsf545]::after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        background-color: white;
+        top: 0;
+        bottom: 0;
+        left: 31px;
+        margin-left: -3px;
+    }
+
+.container[b-o16ijsf545] {
+    padding: 10px 25px 10px 70px;
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+    margin-left: 0;
+}
+
+    .container[b-o16ijsf545]::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    .container[b-o16ijsf545]::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: 18px;
+        background-color: var(--secundaryColor);
+        border: 4px solid white;
+        top: 15px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+.content[b-o16ijsf545] {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+    color: var(--secundaryColor);
+}
+
+    .content h2[b-o16ijsf545] {
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    .content h3[b-o16ijsf545] {
+        font-size: 0.8rem;
+        color: darkgrey;
+    }
+
+    .content img[b-o16ijsf545] {
+        width: 100%;
+        padding: 1rem 0;
+    }
+
+    .content p[b-o16ijsf545] {
+        text-align: justify;
+        margin: 0;
+    }
+/* /Components/Pages/HeaderDesk.razor.rz.scp.css */
+header[b-w484u9aj9e] {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: var(--header-height);
+    padding: 0 3vw 0 0;
+}
+
+.logo[b-w484u9aj9e] {
+    display: inline-flex;
+    justify-content: start;
+}
+
+header > *[b-w484u9aj9e] {
+    display: inline-flex;
+}
+
+header h1[b-w484u9aj9e] {
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 3rem;
+    color: var(--secundaryColor);
+    margin: auto;
+    margin-left: 1rem;
+}
+
+header img[b-w484u9aj9e] {
+    padding: 1vh;
+    width: var(--header-height);
+    height: var(--header-height);
+}
+
+header nav ul[b-w484u9aj9e] {
+    list-style: none;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    padding: 0;
+}
+
+    header nav ul li[b-w484u9aj9e] {
+        display: inline-block;
+        list-style: none;
+    }
+
+        header nav ul li[b-w484u9aj9e]:after {
+            content: " \00b7";
+        }
+
+        header nav ul li:last-child[b-w484u9aj9e]:after {
+            content: none;
+        }
+
+        header nav ul li[b-w484u9aj9e]:after, header nav ul li a[b-w484u9aj9e] {
+            color: var(--secundaryColor);
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+
+            header nav ul li a.selected[b-w484u9aj9e] {
+                color: var(--primaryColor) !important;
+                pointer-events: none;
+            }
+
+        header nav ul li a[b-w484u9aj9e] {
+            text-decoration: none;
+        }
+
+            header nav ul li a:hover[b-w484u9aj9e] {
+                color: var(--primaryColor);
+            }
+/* /Components/Pages/HeaderMobile.razor.rz.scp.css */
+header[b-tiggor3c77] {
+    background-color: white;
+    min-height: var(--header-height);
+}
+
+.headerMobile[b-tiggor3c77] {
+    display: flex;
+    justify-content: space-between;
+    height: var(--header-height);
+}
+
+.headerMobile > *[b-tiggor3c77] {
+    display: inline-flex;
+}
+
+.menuMobile[b-tiggor3c77] {
+    font-size: 1.8rem;
+    padding: 1rem;
+    cursor: pointer;
+    user-select: none;
+    width: 55px;
+}
+    .menuMobile > *[b-tiggor3c77] {
+        display: none;
+    }
+
+    .menuMobile > *.active[b-tiggor3c77]{
+        display: block!important;
+    }
+
+    .menuMobile svg[b-tiggor3c77]{
+        display: block;
+    }
+
+header h1[b-tiggor3c77] {
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 1.6rem;
+    color: var(--secundaryColor);
+    margin: auto;
+}
+
+header img[b-tiggor3c77] {
+    padding: 1vh;
+    width: var(--header-height);
+    height: var(--header-height);
+}
+
+header nav[b-tiggor3c77] {
+    display: none;
+    position: absolute;
+    background: white;
+    width: 100%;
+    z-index: 2;
+}
+
+header nav.active[b-tiggor3c77] {
+    display: block;
+}
+
+header nav ul[b-tiggor3c77] {
+    list-style: none;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    padding: 0;
+}
+
+    header nav ul li[b-tiggor3c77] {
+        display: block;
+        list-style: none;
+    }
+
+        header nav ul li:last-child[b-tiggor3c77]:after {
+            content: none;
+        }
+
+        header nav ul li[b-tiggor3c77]:after, header nav ul li a[b-tiggor3c77] {
+            color: var(--secundaryColor);
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+
+            header nav ul li a.selected[b-tiggor3c77] {
+                color: var(--primaryColor) !important;
+                pointer-events: none;
+            }
+
+        header nav ul li a[b-tiggor3c77] {
+            text-decoration: none;
+            width: 100% !important;
+            padding-left: 1rem;
+            display: block;
+        }
+
+            header nav ul li a:hover[b-tiggor3c77] {
+                color: white;
+                background-color: var(--secundaryColor);
+            }
+/* /Components/Pages/IndexDesk.razor.rz.scp.css */
+main #content[b-k7hb3n74te] {
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+}
+
+/* ------------------------- */
+/* --- Content Portrait ---- */
+/* ------------------------- */
+
+aside[b-k7hb3n74te] {
+    display: flex;
+    align-items: center;
+    width: 45%;
+}
+
+    aside > article[b-k7hb3n74te]{
+        margin: 2rem;
+        background-color: white;
+        border-radius: 5px;
+        height: fit-content;
+    }
+
+#portrait[b-k7hb3n74te]{
+    display:flex;
+    justify-content: center;
+}
+
+    #portrait img[b-k7hb3n74te] {
+        pointer-events: none;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 100%
+    }
+
+#portraitBorder[b-k7hb3n74te] {
+    width: 40%;
+    background-color: var(--primaryColor);
+    margin: 1rem 0;
+    padding: 0.4rem;
+    border-radius: 100%;
+}
+
+#profile[b-k7hb3n74te] {
+    margin-left: auto;
+    text-align: justify;
+    font-style: italic;
+    padding: 1.5rem 2rem;
+    margin: 0;
+    line-height: 2;
+    font-size: 1rem;
+}
+
+    #profile strong[b-k7hb3n74te] {
+        font-weight: bold;
+    }
+
+/* ------------------------- */
+/* -------- Services ------- */
+/* ------------------------- */
+
+.services[b-k7hb3n74te] {
+    width: 55%;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+    .services article[b-k7hb3n74te] {
+        text-decoration: none;
+        margin: 1vh 1vw 1vh 1vw;
+        padding: 1rem;
+        background-color: white;
+        border-radius: 5px;
+        height: fit-content;
+        width: 45%;
+        display: block;
+        color: var(--secundaryColor);
+    }
+
+    .services h3[b-k7hb3n74te] {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .services h3 svg[b-k7hb3n74te]{
+        font-size: 1.8rem;
+        margin-right: 15px;
+    }
+
+    .services p[b-k7hb3n74te] {
+        font-size: 1rem;
+    }
+
+        .services p:last-child[b-k7hb3n74te] {
+            font-weight: bold;
+            font-style: italic;
+        }
+/* /Components/Pages/IndexMobile.razor.rz.scp.css */
+main #content[b-10g1zb5qco] {
+    display: block;
+    width: inherit;
+    margin: 2rem;
+}
+
+main #content > *[b-10g1zb5qco]{
+    width: 100%;
+}
+
+/* ------------------------- */
+/* --- Content Portrait ---- */
+/* ------------------------- */
+
+aside[b-10g1zb5qco] {
+    display: flex;
+}
+
+    aside > article[b-10g1zb5qco]{
+        background-color: white;
+        border-radius: 5px;
+    }
+
+#portrait[b-10g1zb5qco]{
+    display:flex;
+    justify-content: center;
+}
+
+    #portrait img[b-10g1zb5qco] {
+        pointer-events: none;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 100%
+    }
+
+#portraitBorder[b-10g1zb5qco] {
+    width: 40%;
+    background-color: var(--primaryColor);
+    margin: 1rem 0;
+    padding: 0.4rem;
+    border-radius: 100%;
+}
+
+#profile[b-10g1zb5qco] {
+    margin-left: auto;
+    text-align: justify;
+    font-style: italic;
+    padding: 1.5rem 2rem;
+    margin: 0;
+    line-height: 2;
+    font-size: 0.8rem;
+}
+
+    #profile strong[b-10g1zb5qco] {
+        font-weight: bold;
+    }
+
+/* ------------------------- */
+/* -------- Services ------- */
+/* ------------------------- */
+
+.services[b-10g1zb5qco] {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+    .services article[b-10g1zb5qco] {
+        text-decoration: none;
+        margin-top: 1rem;
+        padding: 1rem;
+        background-color: white;
+        border-radius: 5px;
+        height: fit-content;
+        width: 48%;
+        display: block;
+        color: var(--secundaryColor);
+    }
+
+        .services article:nth-child(even)[b-10g1zb5qco] {
+            margin-left: 0.5rem;
+        }
+
+        .services article:nth-child(odd)[b-10g1zb5qco] {
+            margin-right: 0.5rem;
+        }
+
+    .services h3[b-10g1zb5qco] {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    .services h3 svg[b-10g1zb5qco]{
+        font-size: 1.2rem;
+        margin-right: 15px;
+    }
+
+    .services p[b-10g1zb5qco] {
+        font-size: 0.8rem;
+    }
+
+        .services p:last-child[b-10g1zb5qco] {
+            font-weight: bold;
+            font-style: italic;
+        }
+
+@media screen and (max-width: 480px) {
+    .services article[b-10g1zb5qco]{
+        margin-left: 0!important;
+        margin-right: 0!important;
+        width: 100%;
+    }
+}
+/* /Components/Pages/ProjectsDesk.razor.rz.scp.css */
+ul[b-yo8mfvx121]{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.project[b-yo8mfvx121], .project a[b-yo8mfvx121] {
+    height: 30vh;
+}
+
+.project[b-yo8mfvx121] {
+    width: 25%;
+    background-size: cover !important;
+    margin: 2rem;
+    list-style: none;
+    border-radius: 20px;
+    border: 3px solid white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: end;
+}
+
+.project:hover[b-yo8mfvx121]{
+    border-color: lightgray;
+}
+
+    .project a[b-yo8mfvx121] {
+        width: 100%;
+        display: flex;
+        align-items:end;
+        text-decoration: none;
+        color: white;
+    }
+
+    .project a:hover[b-yo8mfvx121]{
+        color: lightgray;
+    }
+
+    .project a span[b-yo8mfvx121]{
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+    }
+/* /Components/Pages/ProjectsMobile.razor.rz.scp.css */
+ul[b-m5lcfmrep5]{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.project[b-m5lcfmrep5], .project a[b-m5lcfmrep5] {
+    height: 30vh;
+}
+
+.project[b-m5lcfmrep5] {
+    width: 100%;
+    background-size: cover !important;
+    margin: 2rem;
+    list-style: none;
+    border-radius: 20px;
+    border: 3px solid white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: end;
+}
+
+.project:hover[b-m5lcfmrep5]{
+    border-color: lightgray;
+}
+
+    .project a[b-m5lcfmrep5] {
+        width: 100%;
+        display: flex;
+        align-items:end;
+        text-decoration: none;
+        color: white;
+    }
+
+    .project a:hover[b-m5lcfmrep5]{
+        color: lightgray;
+    }
+
+    .project a span[b-m5lcfmrep5]{
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+    }
+/* /Pages/Contact.razor.rz.scp.css */
+.contactInfoBox[b-ezmdx5c5d7] {
+    display: flex;
+    align-items: center;
+}
+
+.contactInfo[b-ezmdx5c5d7] {
+    color: var(--secundaryColor);
+    background: white;
+    border-radius: 20px;
+    color: var(--dev-lab-secundary);
+    display: block;
+    height: fit-content;
+    padding: 1em;
+}
+
+    .contactInfo[b-ezmdx5c5d7] >  article:not(:last-child){
+        margin-bottom: 1rem;
+    }
+/* /Pages/Project.razor.rz.scp.css */
+main[b-n8sd6nab8y] {
+    display: block!important;
+}
+
+h2[b-n8sd6nab8y] {
+    margin: 1rem 0;
+    text-align: center;
+    color: white;
+    font-weight: bold
+}
+
+main section[b-n8sd6nab8y], main section div[b-n8sd6nab8y] {
+    display: flex;
+    justify-content: center;
+}
+
+main section[b-n8sd6nab8y] {
+    width: 100%;
+}
+
+    main section div[b-n8sd6nab8y] {
+        width: 80%;
+        background-color: white;
+        padding: 1.5rem;
+        border-radius: 40px;
+        display: flex;
+        justify-content: start;
+        flex-flow: row;
+    }
+
+    main section img[b-n8sd6nab8y] {
+        width: 45%;
+        background-color: var(--primaryColor);
+        padding: 0.4rem;
+        margin-right: 1rem;
+        border-radius: 20px;
+    }
+
+    main section p[b-n8sd6nab8y] {
+        margin-bottom: 0;
+        color: var(--secundaryColor);
+        font-weight: bold;
+    }
+
+@media screen and (max-width: 991.98px) {
+    main section div[b-n8sd6nab8y] {
+        width: 90%;
+        flex-flow: row wrap;
+    }
+
+    main section img[b-n8sd6nab8y] {
+        width: 100%;
+        margin: 0;
+    }
+
+    main section p[b-n8sd6nab8y] {
+        margin-top: 1rem;
+    }
+}
+/* /Shared/EmptyPage.razor.rz.scp.css */
+.errorCardBox[b-1b1o1lp4p3]{
+    display: flex;
+    align-items: center;
+}
+
+.errorCard[b-1b1o1lp4p3] {
+    background: white;
+    border-radius: 20px;
+    color: var(--dev-lab-secundary);
+    display: block;
+    height: fit-content;
+    padding: 1em;
+}
+
+    .errorCard > p[b-1b1o1lp4p3] {
+        margin: 0;
+    }
