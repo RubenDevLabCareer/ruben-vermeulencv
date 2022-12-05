@@ -1,4 +1,6 @@
 ﻿@inherits LayoutComponentBase
+@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor ContextAccessor
 
 <MediaQueryList>
     @Body
@@ -7,3 +9,11 @@
         <div class="triangleBottom"></div>
     </div>
 </MediaQueryList>
+
+@code {
+    protected override void OnInitialized()
+    {
+        ContextAccessor.HttpContext.Request.EnableBuffering();
+        base.OnInitialized();
+    }
+}

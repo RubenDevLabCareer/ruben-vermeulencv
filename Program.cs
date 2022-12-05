@@ -18,7 +18,9 @@ public class Program
             .AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) })
             .AddMediaQueryService()
             .AddResizeListener()
+            .AddHttpContextAccessor();
 
+        builder.Services
             .AddScoped<IMainProfileRepository, MainProfileRepository>()
             .AddScoped<ITimelineNodeRepository, TimelineNodeRepository>()
             .AddScoped<IContactInfoRepository, ContactInfoRepository>()
