@@ -1,18 +1,9 @@
 [
   {
-    "title": "Marketing en Handel",
-    "subTitle": "Instituut Zusters Maricolen Maldegem",
-    "startDate": "09/01/2009",
-    "endDate": "07/01/2015",
-    "imageSrc": "images/timeline/maricolen.jpg",
-    "description": "In 2015 ben ik afgestudeerd aan Instituut Zusters Maricolen binnen de richting 'Marketing & Handel'. Om af te studeren van deze richting moesten we een certificaat voor 'Basiskennis Bedrijfsbeheer' behalen.",
-    "type": 0
-  },
-  {
     "title": "Howest - BaSO",
     "subTitle": "Bachelor Secundair Onderwijs - Engels/Informatica",
-    "startDate": "09/01/2015",
-    "endDate": "07/01/2016",
+    "startDate": "01/09/2015",
+    "endDate": "01/07/2016",
     "imageSrc": "images/timeline/baso.jpg",
     "description": "Nadat ik ben afgestudeerd van mijn middelbare school, begon ik aan mijn bacheloropleiding als leerkracht voor het secundair onderwijs. Ik heb Engels en Informatica als mijn keuzevakken genomen omdat ik met deze twee onderwerpen goed overweg kon. Ondanks dat ik duidelijk de kennis van lesgeven onder de knie had, was ze implementeren in de praktijk toch iets moeilijker dan verwacht. Daarom heb ik gekozen om mijn studies voor deze richting na één jaar stop te zetten.",
     "type": 0
@@ -20,8 +11,8 @@
   {
     "title": "Howest - Toegepaste Informatica",
     "subTitle": "Toegepaste Informatica - Software & System Engineer",
-    "startDate": "09/01/2016",
-    "endDate": "07/01/2020",
+    "startDate": "01/09/2016",
+    "endDate": "01/07/2020",
     "imageSrc": "images/timeline/ti.jpg",
     "description": "Doordat ik de eerste smaak voor programmeren in mijn eerste bacheloropleiding te pakken had gekregen, had ik besloten om een bachelor in Toegepaste Informatica te bemachtigen. Ik heb dan ook besloten om een keuzetraject in Software & System Engineering te nemen. In dit curriculum maakte ik kennis met veelgebruikte programeertalen binnen een IT omgeving onderandere JavaScript, Java, PHP & natuurlijk C#. Hiernaast leerden we ook een paar belangrijke frameworks kennen die binnen de omgevingen van deze talen gebruikt werden. Een paar van de belangrijkste frameworks waar ik mee kennis heb gekregen hier waren Laravel, node.js en .NET Core. Tijdens mijn studies over het laatste, voelde ik dat ik voor .NET een affiniteit had.",
     "type": 0
@@ -29,8 +20,8 @@
   {
     "title": "Square Group",
     "subTitle": "Stagair",
-    "startDate": "02/01/2020",
-    "endDate": "05/01/2020",
+    "startDate": "01/02/2020",
+    "endDate": "01/05/2020",
     "imageSrc": "images/timeline/square.jpg",
     "description": "Voor de laatste semester van mijn bachelor, heb ik 4 maanden stage afgelegd bij Square Group in Wondelgem. Hier heb ik een stockbeheer applicatie moeten maken die stock kan weergeven en inscannen. Deze applicatie was gemaakt in Node.js en Vue stack. Omdat mijn collega’s uit een object georiënteerde omgeving komen wouden ze dat ik gebruik maakte van NestJS, een framework voor Node.js dat object georiënteerd programmeren mogelijk maakt.",
     "type": 1
@@ -38,8 +29,8 @@
   {
     "title": "Info Service Belgium",
     "subTitle": "Oracle Software Engineer",
-    "startDate": "09/01/2020",
-    "endDate": "02/01/2022",
+    "startDate": "01/09/2020",
+    "endDate": "01/02/2022",
     "imageSrc": "images/timeline/isb.jpg",
     "description": "Nadat ik ben afgestudeerd als Software Engineer, ben ik begonnen als een Oracle Software Engineer bij Info Service Belgium. Hier heb ik leren werken met Oracle PL/SQL scripts en deze te implementeren in een Oracle APEX omgeving. Binnen Info Service Belgium hebben we een applicatie service die scholen en kinderopvangen toelaat om hun kinderen in te schrijven voor opvang.",
     "type": 1
@@ -47,8 +38,8 @@
   {
     "title": "Motisha",
     "subTitle": ".NET Software Engineer",
-    "startDate": "03/01/2022",
-    "endDate": "09/01/2022",
+    "startDate": "01/03/2022",
+    "endDate": "01/09/2022",
     "imageSrc": "images/timeline/motisha.jpg",
     "description": "Bij Motisha had ik mijn eerste werkervaring met .NET Core en Angular. Door gebruik te maken van een zelfgebouwde CMS systeem maakten wij hier applicaties die werknemers moeten engageren om beter te presteren. Werknemers krijgen punten beloont voor bepaalde opdrachten die ze dan kunnen inwisselen voor cadeaus zoals rolstoelen, muizen, keukengerief, enc.",
     "type": 1
@@ -56,7 +47,7 @@
   {
     "title": "DevLab.Career",
     "subTitle": ".NET Software Engineer",
-    "startDate": "10/01/2022",
+    "startDate": "01/10/2022",
     "endDate": null,
     "imageSrc": "images/timeline/devlab.jpg",
     "description": "",
@@ -65,8 +56,8 @@
   {
     "title": "CoderDojo Belgium",
     "subTitle": "Vrijwilligerscoach",
-    "startDate": "03/01/2019",
-    "endDate": "09/01/2019",
+    "startDate": "01/03/2019",
+    "endDate": "01/09/2019",
     "imageSrc": "images/timeline/coderdojo.jpg",
     "description": "Tijdens mijn studies was mij gevraagd om extra curriculaire activiteiten aan te gaan (seminars, hacketons, …). Ik had gekozen om mij vrijwillig op te stellen als programmeercoach bij CoderDojo. Hier leerden we jongeren van 7-15 jaar de basis van functioneel programmeren aan. We maakte gebruik van de talen Scratch en Javascript omdat deze de gemakkelijkste talen zijn om aan te leren.",
     "type": 1
