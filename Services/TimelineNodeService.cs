@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using CvBlazor.Repositories;
 using CvBlazor.ViewModels;
+using System.Globalization;
 
 namespace CvBlazor.Services
 {
@@ -27,9 +28,10 @@ namespace CvBlazor.Services
         {
             static string GetDateString(TimelineNodeViewModel timelineNode, string format)
             {
-                var startDateString = timelineNode.StartDate.ToString(format);
-                var endDateString = timelineNode.EndDate.HasValue
-                        ? timelineNode.EndDate.Value.ToString(format)
+                var cultureInfo = new CultureInfo("nl-NL");
+                var startDateString = timelineNode.StartDate.ToString(format, cultureInfo);
+                var endDateString = timelineNode.EndDate != DateTime.MaxValue
+                        ? timelineNode.EndDate.ToString(format, cultureInfo)
                         : "Heden";
 
                 return $"{startDateString} - {endDateString}";
